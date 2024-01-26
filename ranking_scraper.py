@@ -85,11 +85,11 @@ if __name__ == "__main__":
 	]
 	positions = ['qb', 'rb', 'wr', 'te']
 
-	username = "mdane"
-	password = "8jPKXvh6uw1hD1#VGqZ39"
+	username = "" # Add username
+	password = "" # Add password
 	
 	for url, position in zip(position_urls, positions):
 		scraped_data = scrape_rankings(url, position, username, password)
 		if scraped_data:
-			output_folder = "C:\\Users\\matth\\Desktop\\Python\\Web Scraper\\player_ranking_data"
+			output_folder = "" # Add filepath to output folder
 			export_to_csv(scraped_data, f"{position}_rankings.csv", output_folder)
