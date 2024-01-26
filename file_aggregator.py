@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Path to the directory where the files are stored
-file_path = "C:\\Users\\matth\\Desktop\\Python\\Web Scraper\\player_ranking_data\\"
+file_path = "" #Add filepath to where rankings files are stored
 
 # List of file names
 file_names = ['qb_rankings.csv', 'rb_rankings.csv', 'wr_rankings.csv', 'te_rankings.csv']
