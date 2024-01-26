@@ -51,8 +51,8 @@ def export_to_csv(data, filename, output_folder):
         print("No data to export.")
 
 if __name__ == "__main__":
-    input_filename = "C:\\Users\\matth\\Desktop\\Python\\Web Scraper\\player_ranking_data\\qb_rankings.csv"
-    output_folder = "C:\\Users\\matth\\Desktop\\Python\\Web Scraper\\player_season_data\\"
+    input_filename = "" # Add filepath to qb_rankings.csv
+    output_folder = "" # Add filepath to output folder
     output_filename = "qb_season_stats.csv"
     with open(input_filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
